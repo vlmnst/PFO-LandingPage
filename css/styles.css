@@ -288,3 +288,55 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* =========================================
+   6. RESPONSIVE DESIGN (MÓVILES Y TABLETS)
+   ========================================= */
+@media (max-width: 850px) {
+  /* 1. Reseteamos los márgenes laterales gigantes para que el contenido respire */
+  .contenido-perfil,
+  .titulo-tarjetas,
+  .contenedor-tarjetas,
+  .contenedor-peliculas,
+  .contenedor-habilidades,
+  .contenedor-contacto,
+  #peliculas {
+    margin-inline: 1rem;
+  }
+
+  /* 2. Arreglamos el título de las tarjetas para que se apile hacia abajo */
+  .titulo-tarjetas {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .titulo-tarjetas p {
+    margin-right: 0;
+    margin-top: 1rem;
+  }
+
+  /* 3. Forzamos a que las tarjetas sean de 1 sola columna en móvil */
+  .contenedor-tarjetas,
+  .contenedor-peliculas {
+    grid-template-columns: 1fr;
+  }
+
+  /* 4. Apilamos la sección de contacto (texto arriba, formulario abajo) */
+  .contenedor-contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .descripcion-contacto {
+    width: 100%; /* Cambiamos los 30rem fijos al 100% del espacio */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /* 5. Ajustamos el formulario para que no se desborde */
+  .formulario-enigma {
+    width: 100%; /* Cambiamos los 600px fijos al 100% */
+    margin-inline: 0;
+    padding: 1.5rem;
+  }
+}
