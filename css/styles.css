@@ -289,6 +289,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.footer-portafolios {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
 /* =========================================
    6. RESPONSIVE DESIGN (MÓVILES Y TABLETS)
    ========================================= */
