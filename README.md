@@ -11,7 +11,7 @@ Este es mi tercer portafolio personal, desarrollado como Trabajo Práctico. El s
 • **Estructura del Proyecto:** <br>
 [x] Archivo "index.html" ubicado en la raíz. <br>
 [x] Carpeta "css" que contenga el archivo "styles.css". <br>
-[x] (Opcional) Carpeta "img" para recursos gráficos. <br>
+[x] Carpeta "img" para recursos gráficos. <br>
 [x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 
 • **Repositorio y Publicación:** <br>
@@ -46,7 +46,7 @@ Layout y Organización: <br>
 [x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto? <br>
 **Respuesta:** Encontré enormes ventajas al usar CSS Grid para las grillas de tarjetas y películas. Con una sola regla (`grid-template-columns: repeat(auto-fit, minmax(...))`) logré un diseño 100% fluido que se adapta a cualquier tamaño de pantalla de forma automática, manteniendo las proporciones sin tener que escribir reglas complejas. Flexbox, por su parte, me resultó ideal para centrar elementos y alinear la navegación.
 
-Estilización de Componentes: <br>
+• **Estilización de Componentes:** <br>
 [x] Se han personalizado los estilos de tablas, botones, enlaces y formularios. <br>
 [x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, rem, vh). <br>
 [x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en tarjetas o botones). <br>
